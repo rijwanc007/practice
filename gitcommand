@@ -1,0 +1,24 @@
+If you only require the names of the changed files
+-> git show --name-only <commit-hash>
+
+displays the commit history of a Git repository
+-> git log
+
+if the branch you want to delete has been fully merged
+into another branch,use -d (safe delete) option
+->git branch -d <branch-to-delete>
+
+if the branch has unmerged changes and you want to delete
+it anyway(use with caution , as this can lead to data loss),
+use the -D (force delete)option
+->git branch -D <branch-to-delete>
+
+if you want to create a new branch but remain on your current
+branch,use
+->git branch <new-branch-name>
+
+new branch will exist,but you will still be on your original
+branch.to switch to the newly created branch,you would then use
+->git checkout <new-branch-name>
+or
+->git switch <new-branch-name>

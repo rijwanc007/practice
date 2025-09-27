@@ -1,0 +1,29 @@
+https://ianclemence.medium.com/setting-up-laravel-project-using-docker-step-by-step-guide-7c5720fbc2c8
+https://learn.microsoft.com/en-us/windows/wsl/install(microsoft documentation)
+https://docs.docker.com/desktop/setup/install/windows-install/(docker documentation)
+https://www.youtube.com/watch?v=zZf4YH4WiZo(install wsl)
+https://www.youtube.com/watch?v=zy0wR_WmO5g(install wsl docker)
+https://www.youtube.com/watch?v=153iaHqYuIs(ubuntu curl install)
+https://www.youtube.com/watch?v=7hf4EDU9S6g(install docker and laravel on windows {wsl + ubuntu setup})
+command prompt and run as administration
+1.wsl --install (download windows subsystem for Linux)
+note : in windows features enable virtual machine platform and windows subsystems for linux
+search -> turn windows feature on or off -> virtual machine platform and windows subsystems for linux -> enable
+2.wsl --status (check if the wsl has been installed )
+3.wsl --list --online (check available linux distribution)
+4.wsl --update (checking for if have then installed it)
+note : download docker desktop file then install it in local machine
+5.wsl --version (check wsl version windows subsystem linux)
+6.wsl --list(Windows Subsystem for Linux (WSL) to display a list of all installed Linux distributions on your Windows machine.)
+7.wsl --install Ubuntu(If Ubuntu is not launching a terminal after installing WSL)
+8.wsl -d Ubuntu(for specific linux distribution trigger)
+
+ubuntu command
+
+lsb_release -a (This command provides detailed information about the Linux Standard Base (LSB) and the distribution,
+                 including the Distributor ID, Description (which shows the full Ubuntu version), Release number, and Codename.)
+
+cat /etc/os-release (This command displays the contents of the os-release file, which contains various details about the operating system,
+                     including the NAME, VERSION, ID, VERSION_ID, PRETTY_NAME, and UBUNTU_CODENAME)
+
+hostnamectl (This command provides system information, including the Operating System line, which lists the installed Ubuntu version)+
