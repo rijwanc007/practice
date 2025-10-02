@@ -252,5 +252,49 @@ print_r(possibleChanges([
 ]));
 echo "</pre>";
 
+echo '<br/>';
+echo 'late static binding example';
+echo '<br/>';
+
+class Base {
+
+    protected static $name = 'rijwan';
+
+    public function showName() : string {
+
+        return self::$name;
+    }
+}
+
+class Delivered extends Base {
+
+    protected static $name = 'chowdhury';
+}
+
+$obj = new Delivered();
+echo $obj->showName();
+
+echo "<br/>";
+echo "let see how the late static binding work";
+echo '<br/>';
+
+class BaseTwo {
+
+    protected static $name = 'rijwan';
+
+    public function showName() : string {
+
+        return static::$name;
+    }
+}
+
+class DeliveredTwo extends BaseTwo {
+
+    protected static $name = 'chowdhury';
+}
+
+$objTwo = new DeliveredTwo();
+echo $objTwo->showName();
+
 
 //https://github.com/kilian-hu/hackerrank-solutions/tree/master/certificates/problem-solving-basic/nearly-similar-rectangles

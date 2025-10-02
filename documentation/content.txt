@@ -1,0 +1,78 @@
+Water fall method
+
+Requirement elication / gathering -> feasibility study -> analysis -> design -> coding -> testing -> deployment -> maintenance
+
+--> Single pass development to 6 to 18 months
+
+--> All the requirement are predicted initially
+
+--> Phase wise handover
+
+--> Testing is done towards the end
+
+--> Customer involvement after the completion of the process
+
+--> Changing requirements are not entertained
+
+--> No working software event in the late process , it comes with lots of surprise
+
+Agile(flexibility)
+
+--> The agile is a software development methodology is which is one of the simplest and effective process to 
+	turn a vision for a business into a software solution.
+	
+--> Agile is term used to describe software development approach the employ continual planning , learning ,
+	improvement , team collaboration , evolutionary development and early delivery.
+	
+--> Instead of single pass deployment of 6 to 18 months , agile adopts a process of frequent feedback where
+	a workable product is delivered after 2 to 4 weeks iteration
+
+--> It encourages a flexible responses to change.
+	
+Agile values
+
+--> (Individual and interaction over process and tools) : valuing people more highly than process and tools
+	because it is ultimately the people who respond to business needs and drive the development process
+	
+--> (Working software over comprehensive documentation) : agile does not eliminate the documentation agile
+    documents requirements as users story which is sufficient for a developer to begin work on a particular 
+    task. 	
+	
+--> (Customer collaboration over contract negotiation) : Periodic demo -> feedback -> early delivery at a 
+    small interval of time -> ensuring business needs of the customer.
+    client -> before the start of process / after the completion of process.  
+
+--> (Responding to changes over following a plan) :	In agile changing requirements are welcomed in even
+	late development phase.
+	continual plan -> continual learning -> continual improvement -> evolutionary development -> responding changes
+	
+Agile manifesto
+
+--> Highest priority is to satisfy the customer through early and continuous delivery of valuable software
+
+--> Welcome changing requirements, even late in development. agile processes harness change for the customer's
+	competitive advantage.
+	
+--> Deliver working software frequently,from a couple of weeks to a couple of months,with a preference to the
+	shorter timescale.
+
+--> Business people and developers must work together daily throughout the project
+
+--> Build projects around motivated individuals. give them the environment and support they need and trust them
+    to get the job done
+
+--> The most efficient and effective method of conveying information to and within a development team is face - to -
+    face conversation
+
+--> Working software is the primary measure of progress.
+
+--> Agile processes promote sustainable development. the sponsors, developers, and users should be able to maintain
+    a constant pace indefinitely.
+	
+--> Continuous attention to technical excellence and good design enhances agility
+
+--> Simplicity -- the art of maximizing the amount of work not done -- is essential
+
+--> The best architectures,requirements, and designs emerge from self - organizing teams.
+
+--> At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly	 
